@@ -7,6 +7,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-admin-demo/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-user-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/apollo-client-test/pom.xml" />
       </list>
     </option>
   </component>

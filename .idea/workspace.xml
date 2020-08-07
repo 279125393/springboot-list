@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e06a4cba-9a76-4ec1-a2d2-a7a4fe53b79d" name="Default Changelist" comment="" />
+    <list default="true" id="e06a4cba-9a76-4ec1-a2d2-a7a4fe53b79d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/apollo-client-test/src/main/java/com/ford/apollo/client/testt/configuration/RedisConfigurationProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apollo-client-test/src/main/java/com/ford/apollo/client/testt/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apollo-client-test/src/main/java/com/ford/apollo/client/testt/controller/test.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apollo-client-test/src/main/java/com/ford/apollo/client/testt/controller/tests.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apollo-client-test/src/main/resources/META-INF/app.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apollo-client-test/src/test/java/com/ford/apollo/client/testt/DeepCopyTest.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,12 +20,31 @@
       <executable />
     </execution>
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="UML Class" />
+        <option value="UML Use Case" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -28,16 +54,22 @@
     </option>
   </component>
   <component name="ProjectId" id="1fOom9NqcSgTid4ROm1jSceEkFF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultPlantUmlFileTemplate" value="UML Use Case" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/apollo-client-test/src/main/java/com/ford/apollo/client/testt/controller" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.27416173" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -51,7 +83,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.App">
+  <component name="RunManager" selected="Spring Boot.ApolloClientTestApplication">
+    <configuration name="DeepCopyTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="apollo-client-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ford.apollo.client.testt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ford.apollo.client.testt" />
+      <option name="MAIN_CLASS_NAME" value="com.ford.apollo.client.testt.DeepCopyTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApolloClientTestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="apollo-client-test" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ford.apollo.client.testt.ApolloClientTestApplication" />
+      <option name="VM_PARAMETERS" value="-Denv=TEST" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="App (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="springboot-admin-demo" />
       <extension name="coverage">
@@ -72,8 +129,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringbootHystrixApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-hystrix" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ford.hystrix.SpringbootHystrixApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.DeepCopyTest.test" />
+      <item itemvalue="Spring Boot.ApolloClientTestApplication" />
+      <item itemvalue="Spring Boot.App" />
+      <item itemvalue="Spring Boot.SpringbootHystrixApplication" />
+      <item itemvalue="Spring Boot.App (1)" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DeepCopyTest.test" />
         <item itemvalue="Spring Boot.App (1)" />
       </list>
     </recent_temporary>
@@ -88,12 +160,35 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1596098655805</updated>
-      <workItem from="1596098658416" duration="18391000" />
+      <workItem from="1596098658416" duration="23041000" />
+      <workItem from="1596433721250" duration="4821000" />
+      <workItem from="1596619100731" duration="6958000" />
+      <workItem from="1596678205644" duration="317000" />
+      <workItem from="1596678563611" duration="945000" />
+      <workItem from="1596679565967" duration="407000" />
+      <workItem from="1596680030561" duration="218000" />
+      <workItem from="1596680262486" duration="285000" />
+      <workItem from="1596680556580" duration="160000" />
+      <workItem from="1596680729441" duration="132000" />
+      <workItem from="1596680869901" duration="10144000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
